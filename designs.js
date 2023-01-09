@@ -7,7 +7,7 @@ const c = document.getElementById("colorPicker");
 
 //to reset the grid
 function breakGrid() {
-  var selectRows = document.querySelectorAll("tr");
+  let selectRows = document.querySelectorAll("tr");
   selectRows.forEach(function (tr) {
     tr.remove();
   });
